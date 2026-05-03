@@ -1,0 +1,14 @@
+/* Sembunyikan scrollbar untuk tampilan yang lebih bersih (opsional) */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #f5f5f4; 
+}
+::-webkit-scrollbar-thumb {
+    background: #d6d3d1; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a29e; 
+}
